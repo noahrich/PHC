@@ -1,0 +1,66 @@
+
+body
+{
+   background-color: #800020; 
+
+}
+
+div
+{
+   padding-top: 1px;
+   background-color: #ffbbcc;
+}
+h1
+{
+	font-family: sans-serif;
+	color: #800020;
+}
+
+.navbar
+{
+	text-align: center;
+	text-decoration: none;
+	
+	
+}
+
+.navbar li
+{
+	list-style-type: none;
+	display: inline;
+	padding: 15px;
+	margin: 0px;
+	background-color: #ffbbcc;
+    text-decoration: none;
+}
+
+.navbar ul
+{
+	overflow: hidden;	
+	background-color: #ffbbcc;
+	padding: 10px;
+	text-decoration: none;
+	
+}
+
+a
+{
+	text-decoration: none;
+	color: #800020;
+	font-size: 20px;
+}
+
+a:hover, a:active
+{
+	background-color: #ff88a6;
+	padding: inherit;
+	text-decoration: none;
+	
+}
+
+hr
+{
+	border-color: #800020;
+	width: 1000px;
+	
+}
