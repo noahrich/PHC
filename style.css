@@ -28,5 +28,70 @@
            
            }
     
+.header
+{
+   background-color: grey;
+       display: block;
+       margin: 50px;
+       padding: 0;
+       border: 20px ;
+       border-radius: 7pt;
+}
+h1
+{
+	font-family: sans-serif;
+	color: #800020;
+	position: relative;
+	top: 25px;
+}
+
+.navbar
+{
+	text-align: center;
+	text-decoration: none;
+	display: block;
+	
+}
+
+.navbar li
+{
+	list-style-type: none;
+	display: inline;
+	padding: 15px;
+	margin: 0px;
+	background-color: grey;
+    text-decoration: none;
+}
+
+.navbar ul
+{
+	overflow: hidden;	
+	background-color: grey;
+	padding: 10px;
+	text-decoration: none;
+	display: block;
+	
+}
+
+a
+{
+	text-decoration: none;
+	color: #800020;
+	font-size: 20px;
+}
+
+a:hover, a:active
+{
+	background-color: #ff88a6;
+	padding: inherit;
+	text-decoration: none;
+	
+}
+
+hr
+{
+	border-color: #800020;
+	width: 1000px;
+	
    
  

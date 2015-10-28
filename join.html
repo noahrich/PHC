@@ -5,15 +5,95 @@
     <link rel="stylesheet" href="style.css">
     <title>Contact Us!</title>
     <style>
-       h1{
-    font-family: "Times New Roman";
-    font-size: 20px;
+.header
+{
+   background-color: grey;
+       display: block;
+       margin: 50px;
+       padding: 0;
+       border: 20px ;
+       border-radius: 7pt;
 }
-    
+h1
+{
+	font-family: sans-serif;
+	color: #800020;
+	position: relative;
+	top: 25px;
+}
+
+.navbar
+{
+	text-align: center;
+	text-decoration: none;
+	display: block;
+	
+}
+
+.navbar li
+{
+	list-style-type: none;
+	display: inline;
+	padding: 15px;
+	margin: 0px;
+	background-color: grey;
+    text-decoration: none;
+}
+
+.navbar ul
+{
+	overflow: hidden;	
+	background-color: grey;
+	padding: 10px;
+	text-decoration: none;
+	display: block;
+	
+}
+
+a
+{
+	text-decoration: none;
+	color: #800020;
+	font-size: 20px;
+}
+
+a:hover, a:active
+{
+	background-color: #ff88a6;
+	padding: inherit;
+	text-decoration: none;
+	
+}
+
+hr
+{
+	border-color: #800020;
+	width: 1000px;
+	
     </style>
 </head>
 <body>
+   <div class="header">
     <h1><center>Contact Us!</center></h1>
+    <br>
+    <nav class="navbar">
+   	<div class="container fluid">
+   		<div class="navbar-header">
+   		<hr>
+   			<ul class="nav navbar-nav">
+   			  <li class="active"><a href="index.html">Home</a></li>
+   			  <li><a href="CalendarPage.html">Calender</a></li>
+   			  <li><a href="#">Church History</a></li>
+   			  <li><a href="meet.html">Meet the Pastor</a></li>
+   			  <li><a href="sermons.html">Sermons</a></li>
+   			  <li><a href="join.html">Join Today</a></li>
+   			</ul>
+   		</div>
+   </div>
+   	</div>
+   	</nav>
+   	
+	</div>
        <form action="">
         
     <center> <input type="text" id="name" name="name" placeholder="Full Name">
@@ -40,5 +120,15 @@
     <div class="ifra">
    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3465.0920243980104!2d-82.3689712!3d29.7170935!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0000000000000000%3A0x1216ed6e11125cf2!2sPleasanthill+Baptist+Church!5e0!3m2!1sen!2sus!4v1445451461403" width="400" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>
    </div>
+   <div class="footer">
+    <footer>
+    <h4><center>Contact Information</center></h4>
+    <address><center>Phone:(352) 372-2400</center></address>
+    <address><center>2611 Nw 68th Ave <br> 
+    Gainesville, FL 32653</center></address>
+   <a href="https://www.facebook.com/pleasanthillfl?_rdr=p" target="_blank">
+    <center>  <img  src="http://www.troonfc.com/media/1030/1-facebook-logo.png" alt="Facebook" height="52" width="50"></center> 
+    </a>
+    </footer>
 </body>
 </html>

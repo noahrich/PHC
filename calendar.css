@@ -1,26 +1,32 @@
 
 body
 {
-   background-color: #800020; 
+   background-color: #990033; 
 
 }
 
 div
 {
-   padding-top: 1px;
-   background-color: #ffbbcc;
+   background-color: grey;
+       display: block;
+       margin: 50px;
+       padding: 0;
+       border: 20px ;
+       border-radius: 7pt;
 }
 h1
 {
 	font-family: sans-serif;
 	color: #800020;
+	position: relative;
+	top: 25px;
 }
 
 .navbar
 {
 	text-align: center;
 	text-decoration: none;
-	
+	display: block;
 	
 }
 
@@ -30,16 +36,17 @@ h1
 	display: inline;
 	padding: 15px;
 	margin: 0px;
-	background-color: #ffbbcc;
+	background-color: grey;
     text-decoration: none;
 }
 
 .navbar ul
 {
 	overflow: hidden;	
-	background-color: #ffbbcc;
+	background-color: grey;
 	padding: 10px;
 	text-decoration: none;
+	display: block;
 	
 }
 
@@ -64,3 +71,12 @@ hr
 	width: 1000px;
 	
 }
+ .footer {
+        background-color: grey;
+       display: block;
+       margin: 50px;
+       padding: 5px;
+       min-height: 50px;
+       border: 20px ;
+       border-radius: 7pt;
+       }
