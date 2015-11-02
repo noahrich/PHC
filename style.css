@@ -4,7 +4,7 @@
         color: aliceblue;
         }
        .footer {
-        background-color: grey;
+        background-color: #D3D3D3;
        display: block;
        margin: 50px;
        padding: 5px;
@@ -12,14 +12,15 @@
        border: 20px ;
        border-radius: 7pt;
        }
+
+
        .main {
        min-height: 200px;
        max-width: 1000px;
-       margin: 200px;
+       margin: auto;
        padding: 0px;
        display: -webkit-flex;
-       display:         flex;
-   -webkit-flex-flow: row;
+    webkit-flex-flow: row;
            flex-flow: row;
        }
            div.ifra{
@@ -30,7 +31,7 @@
     
 .header
 {
-   background-color: grey;
+   background-color: #D3D3D3;
        display: block;
        margin: 50px;
        padding: 0;
@@ -59,14 +60,14 @@ h1
 	display: inline;
 	padding: 15px;
 	margin: 0px;
-	background-color: grey;
+	background-color: #D3D3D3;
     text-decoration: none;
 }
 
 .navbar ul
 {
 	overflow: hidden;	
-	background-color: grey;
+	background-color: #D3D3D3;
 	padding: 10px;
 	text-decoration: none;
 	display: block;
@@ -93,5 +94,5 @@ hr
 	border-color: #800020;
 	width: 1000px;
 	
-   
+}
  
