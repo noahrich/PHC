@@ -7,7 +7,7 @@ body
 
 div
 {
-   background-color: grey;
+   background-color: #D3D3D3;
        display: block;
        margin: 50px;
        padding: 0;
@@ -36,14 +36,14 @@ h1
 	display: inline;
 	padding: 15px;
 	margin: 0px;
-	background-color: grey;
+	background-color: #D3D3D3;
     text-decoration: none;
 }
 
 .navbar ul
 {
 	overflow: hidden;	
-	background-color: grey;
+	background-color: #D3D3D3;
 	padding: 10px;
 	text-decoration: none;
 	display: block;
@@ -72,7 +72,7 @@ hr
 	
 }
  .footer {
-        background-color: grey;
+        background-color: #D3D3D3;
        display: block;
        margin: 50px;
        padding: 5px;
