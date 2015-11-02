@@ -6,11 +6,12 @@
        .footer {
         background-color: #D3D3D3;
        display: block;
-       margin: 50px;
+       margin: 50px;#
        padding: 5px;
        min-height: 50px;
        border: 20px ;
        border-radius: 7pt;
+	   color: black;
        }
 
 
@@ -44,6 +45,11 @@ h1
 	color: #800020;
 	position: relative;
 	top: 25px;
+}
+
+h3
+{
+	color: black;
 }
 
 .navbar
