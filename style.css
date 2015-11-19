@@ -4,7 +4,7 @@
         color: aliceblue;
         }
        .footer {
-        background-color: #D3D3D3;
+        background-color: #e6e6e6;
        display: block;
        margin: 50px;#
        padding: 5px;
@@ -12,19 +12,19 @@
        border: 20px ;
        border-radius: 7pt;
 	   color: black;
+	   
        }
 
 
        .main {
-       min-height: 200px;
+       min-height: 600px;
        max-width: 1000px;
        margin: auto;
        padding: 0px;
-       display: -webkit-flex;
-    webkit-flex-flow: row;
-           flex-flow: row;
+ 
        }
-           div.ifra{
+         
+div.ifra{
            position: absolute
                top: 0px;
            
@@ -32,7 +32,7 @@
     
 .header
 {
-   background-color: #D3D3D3;
+   background-color: #e6e6e6;
        display: block;
        margin: 50px;
        padding: 0;
@@ -50,6 +50,7 @@ h1
 h3
 {
 	color: black;
+	font-size: 200%;
 }
 
 .navbar
@@ -66,18 +67,18 @@ h3
 	display: inline;
 	padding: 15px;
 	margin: 0px;
-	background-color: #D3D3D3;
+	background-color: #e6e6e6;
     text-decoration: none;
 }
 
 .navbar ul
 {
 	overflow: hidden;	
-	background-color: #D3D3D3;
+	background-color: #e6e6e6;
 	padding: 10px;
 	text-decoration: none;
 	display: block;
-	
+	border-radius: 7pt;
 }
 
 a
@@ -90,7 +91,6 @@ a
 a:hover, a:active
 {
 	background-color: #ff88a6;
-	padding: inherit;
 	text-decoration: none;
 	
 }
