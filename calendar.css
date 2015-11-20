@@ -5,9 +5,9 @@ body
 
 }
 
-div
+#heading
 {
-   background-color: #D3D3D3;
+   background-color: #e6e6e6;
        display: block;
        margin: 50px;
        padding: 0;
@@ -36,18 +36,18 @@ h1
 	display: inline;
 	padding: 15px;
 	margin: 0px;
-	background-color: #D3D3D3;
+	background-color: #e6e6e6;
     text-decoration: none;
 }
 
 .navbar ul
 {
 	overflow: hidden;	
-	background-color: #D3D3D3;
+	background-color: #e6e6e6;
 	padding: 10px;
 	text-decoration: none;
 	display: block;
-	
+	border-radius: 7pt;
 }
 
 a
@@ -60,7 +60,6 @@ a
 a:hover, a:active
 {
 	background-color: #ff88a6;
-	padding: inherit;
 	text-decoration: none;
 	
 }
@@ -72,7 +71,7 @@ hr
 	
 }
  .footer {
-        background-color: #D3D3D3;
+        background-color: #e6e6e6;
        display: block;
        margin: 50px;
        padding: 5px;
@@ -80,3 +79,9 @@ hr
        border: 20px ;
        border-radius: 7pt;
        }
+h2
+{
+	text-decoration: none;
+	color: #e6e6e6;
+	font-size: 35px
+}
