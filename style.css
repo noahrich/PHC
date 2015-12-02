@@ -108,6 +108,17 @@ hr
 .churchImg
 {
 	border: solid;
-	border-color:
+	border-color: red; 
 }
  
+.center{
+	text-align: center;
+}
+.center ol{
+	list-style-position:inside;
+	font-size: 30px
+	
+}
+.center li{
+	font-size: 20px;
+}
