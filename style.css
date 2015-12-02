@@ -17,10 +17,14 @@
 
 
        .main {
+           background-color: #990029;
        min-height: 600px;
        max-width: 1000px;
        margin: auto;
-       padding: 0px;
+       padding: 70px;
+        border: solid;
+        border-style: outset;
+           border-radius: 7pt;
  
        }
          
