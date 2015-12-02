@@ -1,5 +1,6 @@
 
-        body{
+
+body{
         background-color:#990033;
         color: aliceblue;
         }
@@ -34,7 +35,7 @@ div.ifra{
 {
    background-color: #e6e6e6;
        display: block;
-       margin: 50px;
+       margin: 0px;
        padding: 0;
        border: 20px ;
        border-radius: 7pt;
@@ -118,3 +119,44 @@ hr
 .center li{
 	font-size: 20px;
 }
+
+
+@media only screen and (max-width:700px){
+	
+body{
+
+
+}
+	
+.header
+	{
+		width: 100%;
+	}
+
+	.navbar
+	{
+		width: 100%;
+		display: block;
+	}
+    
+	
+	.churchImg
+	{
+		width: 100%;
+	}
+	
+	.navbar a{
+		font-size: 26px
+	}
+	.navbar li{
+	margin: 50px
+	}
+	
+	iframe{
+	width: 100%
+	}
+	
+	p
+	{
+		width: 100%;
+	}
